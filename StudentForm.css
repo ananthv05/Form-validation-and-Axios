@@ -1,0 +1,104 @@
+
+        
+button[type=Add]:hover {    
+      background-color: greenyellow;    
+    }    
+    .showError{    
+      border-color: #a94442 !important;    
+      color: #a94442 !important;    
+      margin-bottom: 15px;    
+    }
+    button[type=edit] {
+width: 75px;
+    }
+    button[type=delete] {
+      width: 75px;
+          }
+    
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  }
+
+  .head {
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    color: skyblue;
+    justify-content: center;
+    margin-left: 540px;
+  }
+
+  label{
+    color: #fff;
+    font-size: 2rem;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  input{
+    width: 15%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border: aqua;
+    outline: none;
+    border-radius: 5px;
+  }
+  button{
+    width: 30%;
+    height: 50px;
+    margin: 5px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: red;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+  }
+  
+  #idbox {
+    text-align: center;
+    justify-content: center;
+    background-color: yellow;
+    color: red;
+    font-size: larger;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  #ibox {
+    text-align: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-size: larger;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  #log {
+    color: white;
+  }
+
+  #box {
+    color: white;
+  }
